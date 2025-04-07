@@ -1,10 +1,10 @@
-const globals = require("globals")
+import globals from "globals"
 
-const unicorn = require("eslint-plugin-unicorn")
-const sonarjs = require("eslint-plugin-sonarjs")
-const stylistic = require("@stylistic/eslint-plugin-js")
-const htmlESLint = require("@html-eslint/eslint-plugin")
-const html = require("eslint-plugin-html")
+import unicorn from "eslint-plugin-unicorn"
+import sonarjs from "eslint-plugin-sonarjs"
+import stylistic from "@stylistic/eslint-plugin-js"
+import htmlESLint from "@html-eslint/eslint-plugin"
+import html from "eslint-plugin-html"
 
 const linterOptions = {
 	reportUnusedDisableDirectives: "error"
@@ -336,7 +336,7 @@ const rules = {
 	"sonarjs/values-not-convertible-to-numbers": 2
 }
 
-module.exports = [
+const allRules = [
 	{
 		linterOptions,
 		languageOptions: {
@@ -366,7 +366,7 @@ module.exports = [
 		linterOptions,
 		languageOptions: {
 			globals: global,
-			parser: require("@html-eslint/parser")
+			parser: await import("@html-eslint/parser")
 		},
 		files: ["**/*.html"],
 		plugins: {
@@ -415,3 +415,4 @@ module.exports = [
 		}
 	}
 ]
+export default allRules

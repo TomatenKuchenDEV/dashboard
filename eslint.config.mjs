@@ -289,7 +289,6 @@ const rules = {
 	"sonarjs/no-in-misuse": 2,
 	"sonarjs/no-incomplete-assertions": 2,
 	"sonarjs/no-incorrect-string-concat": 2,
-	"sonarjs/no-invalid-await": 2,
 	"sonarjs/no-invariant-returns": 2,
 	"sonarjs/no-inverted-boolean-check": 2,
 	"sonarjs/no-labels": 2,

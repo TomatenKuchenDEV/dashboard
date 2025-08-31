@@ -298,7 +298,6 @@ const rules = {
 	"sonarjs/no-nested-incdec": 2,
 	"sonarjs/no-nested-switch": 2,
 	"sonarjs/no-nested-template-literals": 2,
-	"sonarjs/no-one-iteration-loop": 2,
 	"sonarjs/no-parameter-reassignment": 2,
 	"sonarjs/no-primitive-wrappers": 2,
 	"sonarjs/no-redundant-assignments": 2,

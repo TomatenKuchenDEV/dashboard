@@ -20,7 +20,7 @@ const deleteCookie = (name = "") => {
 	document.cookie = name + "=;Max-Age=-99999999;path=/;domain=.tomatenkuchen.com;"
 }
 
-const url = "https://tk-api.chaoshosting.eu/api/"
+const url = "https://api.tomatenkuchen.com/api/"
 // eslint-disable-next-line no-unused-vars
 const get = async (component = "", auth = true, method = "GET", body = null) => {
 	const res = await fetch(url + component + (auth && getCookie("token") ? (component.includes("?") ? "&" : "?") + "token=" + getCookie("token") : ""), {

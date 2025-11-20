@@ -4,5 +4,5 @@ document.addEventListener("DOMContentLoaded", () => {
 		location.href = "/"
 		return
 	}
-	document.getElementById("transcript").src = "https://tk-api.chaoshosting.eu/transcript/" + params.get("id")
+	document.getElementById("transcript").src = "https://api.tomatenkuchen.com/transcript/" + params.get("id")
 })

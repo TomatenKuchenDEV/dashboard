@@ -15,7 +15,7 @@ const triggerContact = async () => {
   infoElement.textContent = "Submitting contact form..."
   button.disabled = true
 
-  await fetch("https://tk-api.chaoshosting.eu/contact", {
+  await fetch("https://api.tomatenkuchen.com/contact", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ email, name, request })

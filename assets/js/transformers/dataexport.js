@@ -67,7 +67,7 @@ const getDataexportHTML = async () => {
 			"<h1 translation='dashboard.settings'></h1>" +
 			(json.data.userProfiles && json.data.userProfiles.settings && json.data.userProfiles.settings.levelBackground ?
 				"<p><b translation='user.levelbg'></b><br><a class='accent' target='_blank' ref='noopener' href='" + encode(json.data.userProfiles.settings.levelBackground) +
-				"'><img crossorigin='anonymous' src='https://tk-api.chaoshosting.eu/image-proxy?url=" + encode(json.data.userProfiles.settings.levelBackground) +
+				"'><img crossorigin='anonymous' src='https://api.tomatenkuchen.com/image-proxy?url=" + encode(json.data.userProfiles.settings.levelBackground) +
 				"' loading='lazy' width='350' height='140' alt='Your level background'></a></p>"
 			: "") +
 			"<p><b translation='user.saveticketatt'></b> " + (json.data.userProfiles?.settings?.saveTicketAttachments ? "✅" : "❌") + "</p>" +

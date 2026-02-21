@@ -328,7 +328,6 @@ const rules = {
 	"sonarjs/single-character-alternation": 2,
 	"sonarjs/stateful-regex": 2,
 	"sonarjs/strings-comparison": 2,
-	"sonarjs/super-invocation": 2,
 	"sonarjs/unicode-aware-regex": 2,
 	"sonarjs/unused-named-groups": 2,
 	"sonarjs/values-not-convertible-to-numbers": 2

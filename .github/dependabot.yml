@@ -10,10 +10,9 @@ updates:
     assignees:
       - "booky10"
     groups:
-      eslint-html-parser:
+      eslint:
         patterns:
-          - "@html-parser/eslint-plugin"
-          - "@html-parser/parser"
+          - "*eslint*"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:

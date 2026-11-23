@@ -7,9 +7,9 @@
 		"description": "Description",
 		"hide": "Hide",
 		"name": "Name",
-		"nocmds": "No commands found!",
+		"nocmds": "No slash commands found!",
 		"show": "Show",
-		"title": "Commands of <span class=\"accent\">TomatenKuchen</span>",
+		"title": "Slash commands of <span class=\"accent\">TomatenKuchen</span>",
 		"usage": "Usage"
 	},
 	"cookie": {

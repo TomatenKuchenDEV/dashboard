@@ -7,9 +7,9 @@
 		"description": "Leírás",
 		"hide": "Elrejt",
 		"name": "Név",
-		"nocmds": "Nem találtunk parancsot!",
+		"nocmds": "Nem találtunk slash parancsot!",
 		"show": "Mutasd meg a",
-		"title": "A <span class=\"accent\">TomatenKuchen</span> parancsai",
+		"title": "A <span class=\"accent\">TomatenKuchen</span> slash parancsai",
 		"usage": "Használat"
 	},
 	"cookie": {

@@ -7,9 +7,9 @@
 		"description": "説明",
 		"hide": "匿う",
 		"name": "名前",
-		"nocmds": "コマンドが見つかりません！",
+		"nocmds": "スラッシュコマンドが見つかりません！",
 		"show": "みせる",
-		"title": "<span class=\"accent\">TomatenKuchen</span>からのコマンドです",
+		"title": "<span class=\"accent\">TomatenKuchen</span> のスラッシュコマンド",
 		"usage": "使用"
 	},
 	"cookie": {

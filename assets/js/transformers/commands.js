@@ -58,9 +58,8 @@ const cmdInfo = (elem, command) => {
 	else {
 		const cmd = commandData.find(c => c.name == command)
 		let html = "<div class='cmd-info'>" +
-			"<p><span translation='commands.usage'></span>: " + encode(cmd.name) + (cmd.usage ? " " + encode(cmd.usage) : "") + "</p>"
+			"<p><span translation='commands.usage'></span>: /" + encode(cmd.name) + (cmd.usage ? " " + encode(cmd.usage) : "") + "</p>"
 
-		if (cmd.aliases.length > 0) html += "<p><span translation='commands.aliases'></span> " + encode(cmd.aliases.join(", ")) + "</p>"
 		if (cmd.opt) html += "<p><span translation='commands.args'></span><ul>" + cmd.opt.map(o => (
 			"<li>" + encode(o.name) +
 			(o.req ? "<span class='red-text'>*</span>" : "") +
